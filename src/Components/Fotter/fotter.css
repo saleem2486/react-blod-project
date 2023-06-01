@@ -1,0 +1,12 @@
+.foot-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: bisque;
+    color: rgb(4, 4, 4);
+    font-family: cursive;
+    font-style: italic;
+}
+
+
+
+

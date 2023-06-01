@@ -37,6 +37,7 @@ Filter1.map((d)=>(
       <img key={d.id}  onClick={( )=> handleImage(d)} alt='No Network' className="secondImage hov" src={d.img}/>
   ))
     }
+
      
         </div>
 

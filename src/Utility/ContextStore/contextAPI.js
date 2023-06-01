@@ -1,7 +1,14 @@
 import React, { useState, createContext } from "react";
 // import Home from '../../Routes/Home/index'
 
+
+
+
 export const AppData = createContext();
+
+
+
+
 function Store(props) {
   const [data, setdata] = useState([
     
@@ -85,6 +92,10 @@ function Store(props) {
       Overview: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industr',
       description: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, "
     },
+
+
+
+    
     {id:8,
       ide: 8, 
       cat: "Hollywood",
@@ -192,6 +203,39 @@ function Store(props) {
       description: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, "
     },
     {
+      id: 18,
+      ide:7,
+      cat: "Bollywood",
+      for: "ArticleList",
+      date:" 31 May, 2013",
+      img: "https://www.pinkvilla.com/images/2022-09/dilwale_dulhan_le_jaenge.jpeg",
+      title: "Dilwale Dulhania Le Jayenge",
+      Overview:"It is a story of the exhilarating and terrifying journey of four characters as they navigate through their youth; from their carefree laughter as they set off on a holiday together in their colleges days, until their bittersweet tears as they watch the first of their bunch get married.",
+      description: "Familiar themes of personal choice versus family responsibility, and forbidden love, are remixed for the 1990s in this epic, era-defining romance. In London, Raj (Khan) is an immature young man, while straight-laced Simran (Kajol) is all set for a marriage arranged by her domineering father. She goes InterRailing in Europe, meets Raj and they fall in love against the backdrop of Swiss mountains. The popularity of the film (the title translates as ‘The brave-hearted will take away the bride’) is reflected in the fact that it has screened daily in Mumbai’s Maratha Mandir cinema for 19 years and counting. This ultimate romance also raised the bar impossibly high for guys chasing girls."
+    },
+
+
+
+
+    {
+      id: 19,
+      ide:8,
+      sp: "home-ban",
+      cat: "Bollywood",
+      for: "TopList",
+      date:" 28 April, 2017",
+      img2: "https://media.timeout.com/images/105903326/1920/1080/image.jpg",
+      img: "https://media.timeout.com/images/105903326/1920/1080/image.jpg",
+      title: "Rehna Hai Tere Dil Main",
+      Overview:"Madhav (Maddy) has love at first site with Reena.He finds from her friend Shruti that she is to be married to Rajiv an NRI.Maddy with the help of his friends importers as Rajiv and woes Reena and both fall in love.When the real Rajiv arrives Reena gets a shock that Maddy was posing as his impostor.When Rajiv and Maddy comes face to face they Maddy realizes that Rajiv is his college rival and war continues.",
+      description:" The story revolves around a young and charming guy named Maddy (R. Madhavan), who is a carefree and fun-loving individual. He falls deeply in love with a beautiful girl named Reena (Dia Mirza) after a chance encounter. However, Reena mistakenly believes that Maddy is a rich, sophisticated man named Rajeev, as she has been corresponding with Rajeev through letters To win Reenas heart, Maddy decides to impersonate Rajeev, hiding his true identity. He moves into the same apartment complex where Reena lives and tries to get closer to her. In the process, Maddy befriends Reenas best friend, Saif (Saif Ali Khan), who is genuinely in love with Reena. As Maddy spends more time with Reena, their bond grows stronger, and Reena starts falling in love with him, unaware of his true identity However, things take a complicated turn when the real Rajeev (played by Saif Ali Khan) returns and creates confusion. Reena becomes torn between her feelings for Maddy and her commitment to Rajeev. The story unfolds with emotional ups and downs as Maddys secret is revealed, leading to heartbreak, forgiveness, and a rollercoaster of emotions. "
+    },
+
+
+
+
+    
+    {
       id: 20,
       ide:9,
       cat: "Bollywood",
@@ -203,6 +247,11 @@ function Store(props) {
       Overview: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industr',
       description: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, "
     },
+
+
+
+
+
     {
       id: 21,
       ide:10,
@@ -225,6 +274,10 @@ function Store(props) {
       Overview: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industr',
       description: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, "
     },
+
+
+
+
     {
       id: 23,
       ide:1,

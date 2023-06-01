@@ -3,6 +3,7 @@ import { Logo, TopNavigation,LogoMobile } from '../../Components'
 import TechArticleList from './TechArticleList'
 import TechTopPost from './TechTopPost'
 import Store from '../../Utility/ContextStore/contextAPI'
+import Fotter from '../../Components/Fotter/Fotter'
 
 const Technology = () => {
   return (
@@ -17,9 +18,15 @@ const Technology = () => {
     <TechArticleList/>
     <TechTopPost/>
     </Store>
+
     </div>
     </div>
+  
+
     </div>
+    <Fotter/>
+
+   
       
     </>
   )

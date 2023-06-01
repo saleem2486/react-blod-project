@@ -3,6 +3,7 @@ import { Logo, LogoMobile, TopNavigation } from '../../Components'
 import FitArticleList from './FitArticleList'
 import FitTopPost from './FitTopPost'
 import Store from '../../Utility/ContextStore/contextAPI'
+import Fotter from '../../Components/Fotter/Fotter'
 
 
 const Fitness = () => {
@@ -18,9 +19,11 @@ const Fitness = () => {
     <FitArticleList/>
     <FitTopPost/>
     </Store>
+
     </div>
     </div>
     </div>
+    <Fotter/>
       
     </>
   )

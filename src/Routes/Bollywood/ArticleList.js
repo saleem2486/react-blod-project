@@ -3,6 +3,9 @@ import { Header, DateExt } from '../../Components'
 import '../../App.css'
 import { AppData } from '../../Utility'
 import { useNavigate } from 'react-router-dom';
+  
+
+
 
 
 function ArticleList(props) {
@@ -28,12 +31,16 @@ function ArticleList(props) {
 <div className='ArticleListSpace'>
 {
         data.filter((item)=>item.cat==="Bollywood" && item.for==="ArticleList"
-        ).map((d, index)=>(
+       && item.id===12 || item.id===13 || item.id===14 || item.id===15 ).map((d, index)=>(
           <div key={d.id}>
      <div className="LatestArtBlock" >
+
+
           <div >
             <img
              onClick={( )=> handleImage(d)}
+
+
               src={d.img}
               alt="No Network"
               className="latestArtImg2 hov"
@@ -41,11 +48,16 @@ function ArticleList(props) {
           </div>
           <div>
             <h2   onClick={( )=> handleImage(d)}>{d.title}</h2>
+
+
+
             <p className="LatestArtDetail">
             {d.Overview}
             </p>
             <p className="LatestArtDate">
               <span className="genericDateTravel">{d.cat}</span>
+
+
               <DateExt dateExt={`  / ${d.date} `} />
             </p>
           </div>
@@ -53,6 +65,9 @@ function ArticleList(props) {
         {index !== 6 && (
          <div className="spacer">
          <hr className="commonHr" />
+
+
+         
        </div>
         )}
        </div>

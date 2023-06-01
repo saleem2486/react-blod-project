@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './logoMobile.style.css'
-import Store from '../../Utility/ContextStore/contextAPI'
-import { NavLink, useNavigate } from 'react-router-dom'
+// import Store from '../../Utility/ContextStore/contextAPI'
+import { NavLink} from 'react-router-dom'
 
 function LogoMobile () {
     
@@ -24,9 +24,10 @@ setShow(prev=>!prev)
       </h1>
     </div>
     <div onClick={handleMenu} className='MenuBar'>
+        {/* <div className='Menu'></div>
         <div className='Menu'></div>
-        <div className='Menu'></div>
-        <div className='Menu'></div>
+        <div className='Menu'></div> */}
+         <ion-icon name="grid-outline"></ion-icon>
    
     </div>
     

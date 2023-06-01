@@ -3,6 +3,7 @@ import { Logo, TopNavigation , LogoMobile} from '../../Components'
 import HollyArticleList from './HollyArticleList'
 import HollyTopPost from './HollyTopPost'
 import Store from '../../Utility/ContextStore/contextAPI'
+import Fotter from '../../Components/Fotter/Fotter'
 
 const Hollywood = () => {
   return (
@@ -20,6 +21,7 @@ const Hollywood = () => {
     </div>
     </div>
     </Store>
+    <Fotter/>
     </>
   )
 }
